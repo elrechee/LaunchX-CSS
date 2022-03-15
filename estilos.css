@@ -1,0 +1,154 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+header{
+    position: static;
+    margin: 0px;
+    height: 75px;
+    /*background: aquamarine;*/
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(206,255,250,0.4) 100%);
+}
+
+details{
+    position: relative;
+    height: 35px;
+    left: 25%;
+    text-align: left;
+    font-size: small;
+    color: #939CB1;
+}
+
+.titulo{
+    color: #1B2B66;
+    font-weight: 600;
+    
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: medium;
+    color: #939CB1;
+}
+
+/*links de color azul */
+.lk_BB{
+    text-decoration: none;
+    color: #1144FF;
+    font-size: larger;
+    font-weight: 800;
+}
+
+/*Links de color gris*/
+.lk_G{
+    text-decoration: none;
+    color: #90978E;
+    font-size: small;
+    font-weight: 700;
+}
+
+/*Boton de color azul con letras blancas*/
+.btn_B{
+    background-color: #1144FF;
+    color: whitesmoke;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: hidden;
+    box-shadow: 0px 5px 6px #939CB1;
+}
+
+footer{
+    background-color:rgba(206,255,250,0.4);
+}
+
+div{
+    text-align: center;
+    position: relative;
+    /*background-color: blueviolet;*/
+}
+/*Todos los section serán contenedores flex*/
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Crear un contenedor Flex*/
+
+.FlexCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*flex content de 2x2*/
+.Fle2x2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+/*itemflex de para un div de 2x2*/
+.item2x2{
+    position: relative;
+    width: 40%;
+}
+/*asignar uno o varios flex items con un tamaño al triple que los demás*/
+.fx_g3{
+flex-grow: 3;
+}
+
+/*  Asignar flew grow=1 y que todos ocupen el mismo espacio*/
+.fx_g1{
+    flex-grow: 1;    
+}
+
+/*imagen con fondo completo*/
+.imagen{
+    background: linear-gradient(0deg, rgba(42,89,204,1)  30%, rgba(145,176,252,1)  100%);
+    flex-grow: 1;
+}
+
+/*imagen con con fondo en solo la parte inferior*/
+.imagen2{
+    background: linear-gradient(0deg, rgba(42,89,204,1)  30%, rgba(145,176,252,1)  100%);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    flex-grow: 1;
+}
+
+/*estilo para iconos amarillos*/
+.iconB{
+    color: blue;
+    font-size: 15px;
+    background: radial-gradient(circle, rgba(63,94,251,0) 0%, rgba(206,255,250,0.4) 100%);
+
+}
+
+.iconSB{
+    color: blue;
+    font-size: 30px;
+    background: radial-gradient(circle, rgba(63,94,251,0) 0%, rgba(206,255,250,0.4) 100%);
+
+}
+
+/*estilos para iconos azules*/
+.iconY{
+    color: goldenrod;
+    font-size: 15px;
+}
+
+/* bloque en donde se agenda cita*/
+.divFloat{
+    position: absolute;
+    top: 570px;
+    left: 150px;
+    width: 700px;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0px 5px 7px #939CB1;
+}
+
+
+
