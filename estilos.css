@@ -57,6 +57,10 @@ p{
     border-style: hidden;
     box-shadow: 0px 5px 6px #939CB1;
 }
+.btn_B:hover{
+    background-color: whitesmoke;
+    color: #1144FF;
+}
 
 footer{
     background-color:rgba(206,255,250,0.4);
